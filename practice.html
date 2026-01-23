@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./bootstrap/css/bootstrap.min.css">
+    <title>Form</title>
+</head>
+<body>
+    
+    <form action="submit.php" method="post" id="form">
+        <div >
+            <label class="" for="username">Username:</label>
+            <input type="text" id="username" name="username1" required><br><br>
+        </div>
+
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" required><br><br>
+
+        <label for="password">Password:</label>
+        <input type="password" id="password" name="password" required><br><br>
+
+        <input type="submit" id="submitBtn" value="Submit">
+    </form>
+
+    <script>
+        // document.getElementById('submitBtn').addEventListener('click', submit);
+
+        // function submit(){
+        //     const username = document.getElementById('username');
+        //     const email = document.getElementById('email');
+        //     const password = document.getElementById('password');
+    
+        //     const nameRegex = /^[A-Za-z]+$/
+        //     const emailRegex = /^[a-zA-Z]+[._0-9]*@[a-zA-Z]+\.[a-zA-Z]{2,}$/
+        //     const passRegex = /^[a-zA-Z0-9!@#$]{8,}$/
+
+        //     if(!nameRegex.test(username.value)){
+        //         alert(`Invalid username ${username.value}`);
+        //         return false;
+        //     }
+        //     if(!emailRegex.test(email.value)){
+        //         alert("Invalid email");
+        //         return false;
+        //     }
+        //     if(!passRegex.test(password.value)){
+        //         alert("Invalid password");
+        //         return false;
+        //     }
+
+        //     alert("Form submitted successfully!");
+        //     return true;
+        // }
+
+    </script>
+</body>
+</html>
